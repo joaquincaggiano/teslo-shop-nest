@@ -49,6 +49,9 @@ postgres/
 .temp
 .tmp
 
+# static files
+static/
+
 # Runtime data
 pids
 *.pid
