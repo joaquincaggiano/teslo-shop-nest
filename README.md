@@ -11,7 +11,8 @@
 ```
 yarn install
 ```
-3. Clonar el __env.template__ y renombrarlo a __.env__
+
+3. Clonar el **env.template** y renombrarlo a **.env**
 
 4. Cambiar las variables de entorno
 
@@ -21,15 +22,14 @@ yarn install
 docker compose up -d
 ```
 
-6. Ejecutar SEED
-
-```
-http://localhost:3000/api/seed
-```
-
-7. Levantar la app en modo desarrollo
+6. Levantar la app en modo desarrollo
 
 ```
 yarn start:dev
 ```
 
+7. Ejecutar SEED
+
+```
+http://localhost:3000/api/seed
+```
