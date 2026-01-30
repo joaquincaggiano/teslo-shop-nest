@@ -36,6 +36,9 @@ export class MessagesWsGateway
 
   @SubscribeMessage('message-from-client')
   handleMessageFromClient(client: Socket, payload: NewMessageDto) {
-    console.log(client.id, payload);
+    this.wss.emit('message-from-server', {
+      fullName: "Soy yo!",
+      message: payload.message,
+    })
   }
 }
